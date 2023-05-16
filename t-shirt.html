@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/t-shirt.css">
+    <title>t-shirt store</title>
+</head>
+<body>
+    <div class="custmozebutton visable">
+        <span><i class="fa-sharp fa-solid fa-palette"></i></span>
+        <button>Custmize</button>
+    </div>
+    <div class="custmize switch">
+        <div class="customize-pa">
+            <div class="head">
+                <span class="cust-sp">T-Shirt Store</span>
+                <span id="closecustomize"><i onclick="closecustomize()"   class="fa-solid fa-xmark"></i></span>   
+            </div>
+            <p class="customize-p">Use the template as-is or try different colors and fonts from the options below.</p>
+            <div class="colordefult">
+                <span class="customize-p2">Try Other Colors</span>
+                <button class="defult">Default</button>
+            </div>
+            <div class="default-color">
+                <span>DEFAULT COLORS</span>
+                <div class="boxcolor-1">
+                    <div class="color1-1"></div>
+                    <div class="color1-1"></div>
+                    <div class="color1-1"></div>
+                    <div class="color1-2"></div>
+                    <div class="color1-3"></div>
+                </div>
+            </div>
+
+            <div class="boxs">
+                <div class="boxcolor-2" id="box1">
+                    <div class="color2-1"></div>
+                    <div class="color2-2"></div>
+                    <div class="color2-3"></div>
+                    <div class="color2-4"></div>
+                    <div class="color2-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box2">
+                    <div class="color3-1"></div>
+                    <div class="color3-2"></div>
+                    <div class="color3-3"></div>
+                    <div class="color3-4"></div>
+                    <div class="color3-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box3">
+                    <div class="color4-1"></div>
+                    <div class="color4-2"></div>
+                    <div class="color4-3"></div>
+                    <div class="color4-4"></div>
+                    <div class="color4-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box4">
+                    <div class="color5-1"></div>
+                    <div class="color5-2"></div>
+                    <div class="color5-3"></div>
+                    <div class="color5-4"></div>
+                    <div class="color5-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box5"> 
+                    <div class="color1-1"></div>
+                    <div class="color6-1"></div>
+                    <div class="color6-2"></div>
+                    <div class="color6-3"></div>
+                    <div class="color6-4"></div>
+                    <div class="color6-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box6">
+                    <div class="color7-1"></div>
+                    <div class="color7-2"></div>
+                    <div class="color7-3"></div>
+                    <div class="color7-4"></div>
+                    <div class="color7-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box7">
+                    <div class="color8-1"></div>
+                    <div class="color8-2"></div>
+                    <div class="color8-3"></div>
+                    <div class="color8-4"></div>
+                    <div class="color8-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box8">
+                    <div class="color9-1"></div>
+                    <div class="color9-2"></div>
+                    <div class="color9-3"></div>
+                    <div class="color9-4"></div>
+                    <div class="color9-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box9"> 
+                    <div class="color10-1"></div>
+                    <div class="color10-2"></div>
+                    <div class="color10-3"></div>
+                    <div class="color10-4"></div>
+                    <div class="color10-5"></div>
+                </div>
+
+                <div class="boxcolor-2" id="box10">
+                    <div class="color11-1"></div>
+                    <div class="color11-2"></div>
+                    <div class="color11-3"></div>
+                    <div class="color11-4"></div>
+                    <div class="color11-5"></div>
+                </div>
+
+            </div>
+            <div class="font">
+                <div class="fonthead">
+                    <span class="try">Try Other Fonts</span>
+                    <button>Default</button> 
+                </div>
+                
+                <div class="popp">
+                    <button>Poppins/Poppins</button>
+                </div>
+
+                <div class="fontboxs">
+                    <button class="font1">Aa</button>
+                    <button class="font1">Aa</button>
+                    <button class="font1">Aa</button>
+                    <button class="font1">Aa</button>
+                    <button class="font2">Aa</button>
+                    <button class="font2">Aa</button>
+                    <button class="font2">Aa</button>
+                    <button class="font2">Aa</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="searchbar">
+        <div>
+            <p>Start typing and press enter to search</p>
+            <p class="search-p">Search …</p>
+        </div>
+        
+            <form action="">
+                <input type="text" name="search" id="search" placeholder="Search ...">
+
+                <span <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></i></span>
+            </form>
+        <button onclick="closesearch()" id="closesearch"><i class="fa-solid fa-xmark"></i></i></i></button> 
+        </div>
+    <div class="container">
+        <div class="nav">
+            <ul class="left-nav">
+                <li><a href="https://websitedemos.net/t-shirts-store-04/shop/">BUY T-SHIRTS</a></li>
+                <li><a href="https://websitedemos.net/t-shirts-store-04/product-category/women/">WOMEN</a> </li>
+                <li><a href="https://websitedemos.net/t-shirts-store-04/product-category/men/">MEN</a> </li>
+                <li><a href="https://websitedemos.net/t-shirts-store-04/about/">ABOUT</a> </li>
+                <li><a href="https://websitedemos.net/t-shirts-store-04/contact/">CONTACT</a> </li>
+            </ul>
+
+            <div class="center-nav">
+                <a href="http://127.0.0.1:5500/t-shirt.html"><img src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/logo-regular.png" alt=""></a> 
+            </div>
+
+            <div class="right-nav">
+            <span class="ast-icon icon-search"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-888 480 142 142" enable-background="new -888 480 142 142" xml:space="preserve">
+                <path d="M-787.4,568.7h-6.3l-2.4-2.4c7.9-8.7,12.6-20.5,12.6-33.1c0-28.4-22.9-51.3-51.3-51.3  c-28.4,0-51.3,22.9-51.3,51.3c0,28.4,22.9,51.3,51.3,51.3c12.6,0,24.4-4.7,33.1-12.6l2.4,2.4v6.3l39.4,39.4l11.8-11.8L-787.4,568.7  L-787.4,568.7z M-834.7,568.7c-19.7,0-35.5-15.8-35.5-35.5c0-19.7,15.8-35.5,35.5-35.5c19.7,0,35.5,15.8,35.5,35.5  C-799.3,553-815,568.7-834.7,568.7L-834.7,568.7z"></path>
+                </svg></span>
+
+                    <span class="bdi">$0.00</span>
+                
+                    <span class="ast-icon icon-basket"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="ast-basket-icon-svg" x="0px" y="0px"  viewBox="826 826 140 140" enable-background="new 826 826 140 140" xml:space="preserve">
+                        <path d="M955.418,887.512c2.344,0,4.343,0.829,6.002,2.486c1.657,1.659,2.486,3.659,2.486,6.002c0,2.343-0.829,4.344-2.486,6.001  c-1.659,1.658-3.658,2.487-6.002,2.487h-0.994l-7.627,43.9c-0.354,2.033-1.326,3.713-2.917,5.04  c-1.593,1.326-3.405,1.989-5.438,1.989h-84.883c-2.033,0-3.846-0.663-5.438-1.989c-1.591-1.327-2.564-3.007-2.918-5.04l-7.626-43.9  h-0.995c-2.343,0-4.344-0.829-6.001-2.487c-1.658-1.657-2.487-3.658-2.487-6.001c0-2.343,0.829-4.343,2.487-6.002  c1.658-1.658,3.659-2.486,6.001-2.486H955.418z M860.256,940.563c1.149-0.089,2.111-0.585,2.885-1.491  c0.773-0.907,1.116-1.936,1.028-3.085l-2.122-27.586c-0.088-1.15-0.585-2.111-1.492-2.885c-0.906-0.774-1.934-1.117-3.083-1.028  c-1.149,0.088-2.111,0.586-2.885,1.492s-1.116,1.934-1.028,3.083l2.122,27.587c0.088,1.105,0.542,2.034,1.359,2.785  c0.818,0.752,1.78,1.128,2.885,1.128H860.256z M887.512,936.319v-27.587c0-1.149-0.42-2.144-1.26-2.984  c-0.84-0.84-1.834-1.26-2.984-1.26s-2.144,0.42-2.984,1.26c-0.84,0.841-1.26,1.835-1.26,2.984v27.587c0,1.149,0.42,2.145,1.26,2.984  c0.84,0.84,1.835,1.26,2.984,1.26s2.144-0.42,2.984-1.26C887.092,938.464,887.512,937.469,887.512,936.319z M912.977,936.319  v-27.587c0-1.149-0.42-2.144-1.26-2.984c-0.841-0.84-1.835-1.26-2.984-1.26s-2.145,0.42-2.984,1.26  c-0.84,0.841-1.26,1.835-1.26,2.984v27.587c0,1.149,0.42,2.145,1.26,2.984s1.835,1.26,2.984,1.26s2.144-0.42,2.984-1.26  C912.557,938.464,912.977,937.469,912.977,936.319z M936.319,936.65l2.122-27.587c0.088-1.149-0.254-2.177-1.027-3.083  s-1.735-1.404-2.885-1.492c-1.15-0.089-2.178,0.254-3.084,1.028c-0.906,0.773-1.404,1.734-1.492,2.885l-2.122,27.586  c-0.088,1.149,0.254,2.178,1.027,3.085c0.774,0.906,1.736,1.402,2.885,1.491h0.332c1.105,0,2.066-0.376,2.885-1.128  C935.777,938.685,936.23,937.756,936.319,936.65z M859.66,855.946l-6.167,27.322h-8.753l6.698-29.245  c0.84-3.89,2.807-7.062,5.902-9.516c3.095-2.453,6.632-3.68,10.611-3.68h11.074c0-1.149,0.42-2.144,1.26-2.984  c0.84-0.84,1.835-1.26,2.984-1.26h25.465c1.149,0,2.144,0.42,2.984,1.26c0.84,0.84,1.26,1.834,1.26,2.984h11.074  c3.979,0,7.516,1.227,10.611,3.68c3.094,2.454,5.062,5.626,5.901,9.516l6.697,29.245h-8.753l-6.168-27.322  c-0.486-1.945-1.491-3.537-3.017-4.774c-1.525-1.238-3.282-1.857-5.272-1.857h-11.074c0,1.15-0.42,2.144-1.26,2.984  c-0.841,0.84-1.835,1.26-2.984,1.26h-25.465c-1.149,0-2.144-0.42-2.984-1.26c-0.84-0.84-1.26-1.834-1.26-2.984h-11.074  c-1.99,0-3.747,0.619-5.272,1.857C861.152,852.409,860.146,854,859.66,855.946z"></path>
+                        </svg></span>
+
+                        <span class="login">LOG IN</span>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="seccion">
+        <div class="par">
+            <span class="wm">Women</span>
+            <h1 class="p-1">Slick. Modern. Awesome.</h1>
+
+            <a class="shop" href="http://127.0.0.1:5500/t-shirt.html">Shop Collection</a>
+        </div>
+
+        <div class="img-p">
+            <a href="http://127.0.0.1:5500/t-shirt.html"><img class="img" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/hero.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="main-1">
+        <span class="SUMMER">SUMMER COLLECTION</span>
+        <h1 class="p-2">Popular T-Shirts</h1>
+
+        <div class="main-imgs">
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-10/"><img class="picture picture-1" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-09-a.jpg" alt=""></a> 
+                <span class="p">Men</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-10/">T-Shirt Name 10</a>
+
+                <span class="woocommerce-Price-currencySymbol">$33.00 - $36.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-9/"><img class="picture picture-2" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-06-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Women</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-9/">T-Shirt Name 9</a>
+
+                <span class="woocommerce-Price-currencySymbol">$23.00 - $28.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-8/"><img class="picture picture-2" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-10-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Men</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-8/">T-Shirt Name 8</a>
+
+                <span class="woocommerce-Price-currencySymbol">$21.00 - $25.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-7/"><img class="picture picture-3" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-08-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Women</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-7/">T-Shirt Name 7</a>
+
+                <span class="woocommerce-Price-currencySymbol">$36.00 - $39.00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-2">
+        <div class="main-2-img1"></div>
+        <div class="main-2-img2"></div>
+
+        <div class="m-2-p">
+            <span class="wm-1">Men</span>
+
+            <h1 class="p-2">The base collection - Ideal every day.</h1>
+
+            <a class="shop" href="http://127.0.0.1:5500/t-shirt.html">shop now</a>
+        </div>
+    </div>
+
+    <div class="main-3">
+        <div class="opacity"></div>
+        <div class="details">
+            <span class="wm-2">NEW COLLECTION</span>
+
+            <h1 class="p-2">Be different in your own way!</h1>
+
+            <h3 class="p-3">Find your unique style.</h3>
+
+            <a class="shop" href="http://127.0.0.1:5500/t-shirt.html">Shop Collection</a>
+        </div>
+    </div>
+
+    <div class="main-4">
+        <div class="photo"></div>
+
+        <div class="background"></div>
+
+        <div class="pharagragh">
+            <span class="wm">women</span>
+
+            <h2 class="p-3">Spring Summer Collection</h2>
+
+            <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id leo tempor, congue justo at, lobortis orci. Aliquam venenatis dui lectus, eu convallis turpis convallis et. Pellentesque.</p>
+        
+            <a class="shop" href="">See Whole Collection</a>
+        </div>
+    </div>
+
+    <div class="main-5">
+        <span class="wm-3">SUMMER COLLECTION</span>
+
+        <h2 class="p-4">On Sale T-Shirts</h2>
+
+        <div class="main-imgs">
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-1/"><img class="picture picture-3" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-01-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Women</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-1/">T-Shirt Name 1</a>
+
+                <span class="woocommerce-Price-currencySymbol">$18.00 - $20.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-4/"><img class="picture picture-3" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-05-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Men</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-4/">T-Shirt Name 4</a>
+
+                <span class="woocommerce-Price-currencySymbol">$17.00 - $19.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-6/"><img class="picture picture-2" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-03-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Men</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-6/">T-Shirt Name 6</a>
+
+                <span class="woocommerce-Price-currencySymbol">$18.00 - 22.00</span>
+            </div>
+
+            <div class="img-1">
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-7/"><img class="picture picture-3" src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-08-a-400x488.jpg" alt=""></a>
+
+                <span class="p">Women</span>
+
+                <a href="https://websitedemos.net/t-shirts-store-04/product/t-shirt-name-7/">T-Shirt Name 7</a>
+
+                <span class="woocommerce-Price-currencySymbol">$36.00 - $39.00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="review">
+        <h1>Reviews</h1>
+
+        <a href="https://websitedemos.net/t-shirts-store-04/#">" Very good quality T-shirts and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum!"</a>
+    </div>
+
+        <div class="last">
+            <a href="https://websitedemos.net/t-shirts-store-04/product-category/men/"><div class="men">
+            <div class="products">
+                <h3>Men</h3>
+                <span>5 Products</span> 
+            </div>
+        </div></a>
+
+        <a href="https://websitedemos.net/t-shirts-store-04/product-category/women/"><div class="women">
+            <div class="products">
+                <h3>Women</h3>
+                <span>5 Products</span> 
+        </div>
+        </div></a>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <h2>Subscribe To Get Offers In Your Inbox</h2>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit sed do eiusmod condimentum</p>
+
+            <form class="input" action="get">
+                <input type="email" id="email" placeholder="Your email address...">
+                
+                <button>Subscribe</button>
+                <div class="sp">
+                    <span>enter a valid value</span>
+                </div>
+                <div class="spinner-border hiden" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </form>
+            
+            <div class="links">
+                <a href="https://websitedemos.net/t-shirts-store-04/shop/">BUY T-SHIRTS</a>
+                <a href="https://websitedemos.net/t-shirts-store-04/product-category/women/">WOMEN</a>
+                <a href="https://websitedemos.net/t-shirts-store-04/product-category/men/">MEN</a>
+                <a href="https://websitedemos.net/t-shirts-store-04/about/">ABOUT</a>
+                <a href="https://websitedemos.net/t-shirts-store-04/contact/">CONTACT</a>
+            </div>
+
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-facebook-f" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © 2023 T-Shirts Store | Powered by T-Shirts Store</p>
+            </div>
+        
+    </div>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-3.6.4.min.js"></script>
+    <script src="static/js/t-shirt.js"></script>
+</body>
+</html>
