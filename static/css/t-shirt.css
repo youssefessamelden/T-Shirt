@@ -15,7 +15,7 @@
     top: 35%;
     border: 2px solid rgba(0, 0, 0, 10%);
     background: #FFFFFF;
-    padding: 10px 20px;
+    padding: 12px 7px;
     cursor: pointer;
     transition: all 2.5s 1.5s;
 }
@@ -25,6 +25,10 @@
     background: transparent;
     font-size: 1.2em;
     cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translate(0 , -50%);
 }
 
 .custmozebutton i{
@@ -95,6 +99,10 @@
     cursor: pointer;
 }
 
+.custmize .customize-pa .defult:focus{
+    color: rgba(0, 0, 0, 20%);
+}
+
 .custmize .customize-pa .default-color{
     margin: auto;
     width: 90%;
@@ -105,6 +113,41 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.custmize .customize-pa .default-color:focus{
+    border: 2px solid blue;
+}
+
+.custmize .customize-pa .boxs #box1:focus{
+        border: 2px solid blue;
+}
+#box2:focus{
+        border: 2px solid blue;
+}
+#box3:focus{
+        border: 2px solid blue;
+}
+#box4:focus{
+        border: 2px solid blue;
+}
+#box5:focus{
+        border: 2px solid blue;
+}
+#box6:focus{
+        border: 2px solid blue;
+}
+#box7:focus{
+        border: 2px solid blue;
+}
+#box8:focus{
+        border: 2px solid blue;
+}
+#box9:focus{
+        border: 2px solid blue;
+}
+#box10:focus{
+        border: 2px solid blue;
 }
 
 .custmize .customize-pa .default-color span{
@@ -566,6 +609,8 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+
 /*////////////////////// End of customizer for boxs////////////////// */
 .font{
     display: flex;
@@ -761,7 +806,7 @@
     width: 1.2em;
     position: relative;
     cursor: pointer;
-    margin-left: -200%;
+    margin-left: -160%;
 }
 
 .login{

@@ -60,57 +60,46 @@ defult.addEventListener("click" , ()=>{
 
 defaultbox.addEventListener("click" , ()=>{
     secion.style.background="#faedeb"; 
-    defaultbox.style.border="2px solid blue";
 })
 
 box1.addEventListener("click" , ()=>{
     secion.style.background="rgb(142, 67, 240)"; 
-    box1.style.border="2px solid blue";
 })
 
 box2.addEventListener("click" , ()=>{
     secion.style.background="rgb(217, 7, 0)"; 
-    box2.style.border="2px solid blue";
 })
 
 box3.addEventListener("click" , ()=>{
     secion.style.background="rgb(255, 106, 151)"; 
-    box3.style.border="2px solid blue";
 })
 
 box4.addEventListener("click" , ()=>{
     secion.style.background="rgb(255, 122, 61)"; 
-    box4.style.border="2px solid blue";
 })
 
 box5.addEventListener("click" , ()=>{
     secion.style.background="rgb(249, 195, 73)"; 
-    box5.style.border="2px solid blue";
 })
 
 box6.addEventListener("click" , ()=>{
     secion.style.background="rgb(48, 199, 181)"; 
-    box6.style.border="2px solid blue";
 })
 
 box7.addEventListener("click" , ()=>{
     secion.style.background="rgb(79, 86, 85)"; 
-    box7.style.border="2px solid blue";
 })
 
 box8.addEventListener("click" , ()=>{
     secion.style.background="rgb(6, 117, 46)"; 
-    box8.style.border="2px solid blue";
 })
 
 box9.addEventListener("click" , ()=>{
     secion.style.background="rgb(47, 193, 255)"; 
-    box9.style.border="2px solid blue";
 })
 
 box10.addEventListener("click" , ()=>{
-    secion.style.background="rgb(8, 74, 243)"; 
-        box10.style.border="2px solid blue";    
+    secion.style.background="rgb(8, 74, 243)";   
 })
 //////////////////////////////////////////////////////////////////
 let popp = document.querySelector(".popp")
